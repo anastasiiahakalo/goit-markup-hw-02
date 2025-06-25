@@ -1,7 +1,7 @@
 
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
@@ -9,18 +9,34 @@ body {
 a {
     text-decoration: none;
 }
-
+.logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
 .header-logo-accent{
   color: #2e2f42;  
 }
 
-nav a,
-address a {
+nav a {
   color: #2e2f42;
   text-decoration: none;
   font-weight: 500;
-}
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 
+}
+address {
+    font-style: normal;
+}
+address a{
+    font-style: normal;
+}
 nav a:hover,
 nav a:focus,
 address a:hover,
@@ -31,7 +47,7 @@ address a:focus {
 .header {
   background-color: #ffffff;
 }
-,header-nav{
+.header-nav{
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -97,44 +113,62 @@ address a:focus {
 }
 
 .hero-title {
+    text-align: center;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   color: #ffffff;
+  letter-spacing: 0.02em;
 }
 
 .hero-button {
+    font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   background-color: #4D5AE5;
   color: #ffffff;
+  line-height: 1.5;
+  letter-spacing: 0.04;
+  cursor: pointer;
 }
 
 .hero-button:hover,
 .hero-button:focus {
      background-color: #404bbf;
 }
+                <!-- section 2 -->
+.visually-hidden{
+    overflow: hidden;
+}
 .strengths-title {
   font-size: 20px;
   font-weight: 500;
+  line-height: 1.2;
+    letter-spacing: 0.02em;
   color: #2E2F42;
 }
-
+.strengths-item{
+   
+}
 .strengths-text {
   font-size: 16px;
   color: #434455;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
+                <!-- section 3 -->
 .team {
   background-color: #f4f4fd;
 }
 
 .team-title {
+    text-align: center;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .team-list {
@@ -148,16 +182,29 @@ address a:focus {
   font-size: 20px;
   font-weight: 500;
   color: #2e2f42;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .team-item-text {
   font-size: 16px;
   font-weight: 400;
   color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+                <!-- section 4 -->
+.portfolio {
+    background-color: #f4f4fd;
 }
 
 .portfolio-title {
   font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
@@ -188,7 +235,19 @@ address a:focus {
 .portfolio-item{
     background-color: #ffffff;
 }
-
+.portfolio-item-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.portfolio-item-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 .footer {
   background-color: #2e2f42;
 }
@@ -201,6 +260,7 @@ address a:focus {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
+  letter-spacing: 0.03em;
 }
 
 .footer-logo-accent {
@@ -211,4 +271,5 @@ address a:focus {
   color: #f4f4fd;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
