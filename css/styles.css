@@ -31,7 +31,7 @@ nav a {
   letter-spacing: 0.02em;
 
 }
-address {
+.address {
     font-style: normal;
 }
 address a{
@@ -105,7 +105,7 @@ address a:focus {
 }
 
 .container {
-  width: 100%;
+
 }
 
 .hero {
@@ -136,7 +136,7 @@ address a:focus {
 .hero-button:focus {
      background-color: #404bbf;
 }
-                <!-- section 2 -->
+                /* section 2 */
 .visually-hidden{
     overflow: hidden;
 }
@@ -157,7 +157,7 @@ address a:focus {
   letter-spacing: 0.02em;
 }
 
-                <!-- section 3 -->
+                /* section 3 */
 .team {
   background-color: #f4f4fd;
 }
@@ -194,7 +194,7 @@ address a:focus {
   letter-spacing: 0.02em;
 }
 
-                <!-- section 4 -->
+                /* section 4 */
 .portfolio {
     background-color: #f4f4fd;
 }
