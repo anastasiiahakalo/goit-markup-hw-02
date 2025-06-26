@@ -104,10 +104,6 @@ address a:focus {
   color: #404bbf;
 }
 
-.container {
-
-}
-
 .hero {
   background-color: #2E2F42;
 }
@@ -137,9 +133,7 @@ address a:focus {
      background-color: #404bbf;
 }
                 /* section 2 */
-.visually-hidden{
 
-}
 .strengths-title {
   font-size: 20px;
   font-weight: 500;
