@@ -1,5 +1,4 @@
-
-
+/* Загальні стилі */
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -7,61 +6,39 @@ body {
 }
 
 a {
-    text-decoration: none;
-}
-.logo{
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-}
-.header-logo-accent{
-  color: #2e2f42;  
-}
-
-nav a {
-  color: #2e2f42;
   text-decoration: none;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-
-}
-.address {
-    font-style: normal;
-}
-address a{
-    font-style: normal;
-}
-nav a:hover,
-nav a:focus,
-address a:hover,
-address a:focus {
-  color: #404bbf;
 }
 
-.header {
-  background-color: #ffffff;
-}
-.header-nav{
+/* Логотип */
+.logo {
   font-family: "Raleway", sans-serif;
-  font-size: 18px;
   font-weight: 700;
+  font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  text-decoration: none;
 }
 
 .header-logo-accent {
   color: #2e2f42;
 }
 
+/* Навігація */
+nav a {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+nav a:hover,
+nav a:focus,
+address a:hover,
+address a:focus {
+  color: #404bbf;
+}
 
 .nav-link {
   font-weight: 500;
@@ -81,13 +58,15 @@ address a:focus {
   color: #404bbf;
 }
 
-
-.header-address {
+/* Контакти */
+.address {
   font-style: normal;
 }
 
-.address-list {
+.address-list,
+.nav-list {
   list-style: none;
+  margin: 0;
 }
 
 .address-link {
@@ -98,17 +77,13 @@ address a:focus {
   text-decoration: none;
 }
 
-.address-link:hover,
-.address-link:focus {
-  color: #404bbf;
-}
-
+/* Hero section */
 .hero {
-  background-color: #2E2F42;
+  background-color: #2e2f42;
 }
 
 .hero-title {
-    text-align: center;
+  text-align: center;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -117,10 +92,10 @@ address a:focus {
 }
 
 .hero-button {
-    font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
-  background-color: #4D5AE5;
+  background-color: #4d5ae5;
   color: #ffffff;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -129,16 +104,16 @@ address a:focus {
 
 .hero-button:hover,
 .hero-button:focus {
-     background-color: #404bbf;
+  background-color: #404bbf;
 }
-                /* section 2 */
 
+/* Section 2: Strengths */
 .strengths-title {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-    letter-spacing: 0.02em;
-  color: #2E2F42;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .strengths-text {
@@ -148,13 +123,13 @@ address a:focus {
   letter-spacing: 0.02em;
 }
 
-                /* section 3 */
+/* Section 3: Team */
 .team {
   background-color: #f4f4fd;
 }
 
 .team-title {
-    text-align: center;
+  text-align: center;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -164,12 +139,13 @@ address a:focus {
 }
 
 .team-list {
-  list-style: none; 
+  list-style: none;
 }
 
 .team-item {
   background-color: #ffffff;
 }
+
 .team-item-title {
   font-size: 20px;
   font-weight: 500;
@@ -186,9 +162,9 @@ address a:focus {
   letter-spacing: 0.02em;
 }
 
-                /* section 4 */
+/* Section 4: Portfolio */
 .portfolio {
-    background-color: #f4f4fd;
+  background-color: #f4f4fd;
 }
 
 .portfolio-title {
@@ -200,7 +176,8 @@ address a:focus {
   color: #2e2f42;
 }
 
-.portfolio-filter-list {
+.portfolio-filter-list,
+.portfolio-list {
   list-style: none;
 }
 
@@ -220,39 +197,28 @@ address a:focus {
   color: #ffffff;
 }
 
-.portfolio-list {
-  list-style: none;
+.portfolio-item {
+  background-color: #ffffff;
 }
 
-.portfolio-item{
-    background-color: #ffffff;
+.portfolio-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
-.portfolio-item-title{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
+
 .portfolio-item-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
+
+/* Footer */
 .footer {
   background-color: #2e2f42;
-}
-
-.logo {
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.17;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  text-decoration: none;
-  letter-spacing: 0.03em;
 }
 
 .footer-logo-accent {
